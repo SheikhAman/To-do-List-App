@@ -7,7 +7,7 @@ class TaskData extends ChangeNotifier {
   List<Task> _tasks = [
     Task(name: 'Buy milk'),
     Task(name: 'Buy eggs'),
-    Task(name: 'Buy breed'),
+    Task(name: 'Buy bread'),
   ];
   UnmodifiableListView<Task> get tasks {
     // You can't add tasks  in UnmodifiableListView data type
